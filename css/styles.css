@@ -115,6 +115,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--first-text-color);
+  color: #2e2f42;
 }
 
 .team-names {
