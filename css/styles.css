@@ -9,7 +9,7 @@
 body {
   background-color: white;
   font-family: "Roboto", sans-serif;
-  color: var(--first-text-color);
+  color: #434455;
 
 }
 
@@ -25,7 +25,8 @@ body {
   font-family: var(--second-font);
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.3em;
+  line-height: 1.17em;
+  letter-spacing: 0.03em;
   color: #4d5ae5;
   text-transform: uppercase;
 }
@@ -41,6 +42,9 @@ body {
   color: var(--first-text-color);
 }
 
+.adrs-list{
+  font-style: normal;
+}
 .header-link:hover,
 .header-link:focus,
 .heder-mail:hover,
@@ -56,7 +60,6 @@ body {
   line-height: 1.5em;
   letter-spacing: 0.02em;
   color: var(--second-text-color);
-  font-style: normal;
 }
 
 /* main */
@@ -69,15 +72,16 @@ body {
 .hero-text {
   font-weight: 700;
   font-size: 56px;
-  line-height: 0.9em;
+  line-height: 1.07em;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
 
 .hero-button {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 0.6em;
+  line-height: 1.5em;
   letter-spacing: 0.04em;
   color: #ffffff;
   background: #4d5ae5;
@@ -91,7 +95,7 @@ body {
 .about-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2em;
+  line-height: 1.07em;
   letter-spacing: 0.02em;
 }
 .about-text {
@@ -106,7 +110,7 @@ body {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1em;
+  line-height: 1.11em;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -115,7 +119,7 @@ body {
 .team-names {
   font-weight: 500;
   font-size: 20px;
-  line-height: 0.8em;
+  line-height: 1.2em;
   text-align: center;
   letter-spacing: 0.02em;
 }
@@ -124,7 +128,7 @@ body {
   font-size: 16px;
   line-height: 0.6em;
   text-align: center;
-  letter-spacing: 0.02em;
+  letter-spacing: 1.5em;
   color: var(--second-text-color)
 }
 
