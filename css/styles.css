@@ -150,14 +150,16 @@ body {
 /* portfolio */
 
 .btn-portfolio{
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 0.6em;
+  line-height: 1.5em;
   letter-spacing: 0.04em;
   color: #4D5AE5;
   background: #F4F4FD;
   border: 1px solid #E7E9FC;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .btn-portfolio:hover,
@@ -172,13 +174,13 @@ body {
 .proposition-title{
   font-weight: 500;
   font-size: 20px;
-  line-height: 0.83;
+  line-height: 1.2em;
   letter-spacing: 0.02em;
   color: var(--first-text-color);
 }
 .proposition-desc{
   font-size: 16px;
   line-height: 0.66;
-  letter-spacing: 0.02em;
+  letter-spacing: 1.5em;
   color: var(--second-text-color);
 }
