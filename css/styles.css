@@ -47,15 +47,12 @@ body {
 }
 .header-link:hover,
 .header-link:focus,
-.heder-mail:hover,
-.heder-mail:focus,
-.header-phone:hover,
-.header-phone:focus {
+.heder-adrs:hover,
+.heder-adrs:focus{
   color: #404bbf;
 }
 
-.heder-mail,
-.header-phone {
+.heder-adrs {
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.02em;
@@ -115,7 +112,6 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--first-text-color);
-  color: #2e2f42;
 }
 
 .team-names {
@@ -124,6 +120,7 @@ body {
   line-height: 1.2em;
   text-align: center;
   letter-spacing: 0.02em;
+  color: var(--first-text-color);
 }
 
 .team-desc {
